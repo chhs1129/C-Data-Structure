@@ -24,7 +24,7 @@ int main() {
 		temp -> data = i;
 		prev = temp;
 	}
-  temp = (listhead.next);								
+  	temp = (listhead.next);								
 	while (temp != NULL) {							
 		printf("list item: \n\tcurrent is %p\n\tnext is %p\n\tdata is %d\n", temp, temp->next, temp->data);
 		temp = temp->next;									
